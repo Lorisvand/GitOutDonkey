@@ -1,0 +1,31 @@
+:root {
+    --error: #ff0000;
+    --primary: #000000;
+    --primary-light: #cbc7c5;
+}
+
+.numbers_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 2rem;
+    background-image: url(/npj84mwcjiff1ugm27ldnhz0uxmwle8f.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.numbers_grid li {
+    background-color: var(--primary-light);
+    padding: 1rem;
+    border-radius: 1rem;
+    font-weight: 900;
+    transition: ease-in-out 0.2s;
+}
+
+.numbers_grid li:hover {
+    transform: scale(180%);
+}
+
+.correct:hover {
+    background-color: var(--error);
+}
