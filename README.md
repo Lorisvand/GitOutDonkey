@@ -1,7 +1,7 @@
 # The stubborn donkey's
 
 - Loris
-  I have room 4, you have to click the treasure chest a couple of times to reveal the number
+  I have room 4, you have to click the treasure chest a couple of times to reveal the number.
 - Matteo
   hover over the screen when you find the number you shall find it
 - Polina
