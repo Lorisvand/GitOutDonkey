@@ -1,0 +1,20 @@
+.container {
+            position: relative;
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .hidden-number {
+            position: absolute;
+            font-size: 48px;
+            color: transparent;
+            transition: color 0.3s ease;
+            cursor: pointer;
+        }
+
+        .hidden-number:hover {
+            color: black;
+        }
