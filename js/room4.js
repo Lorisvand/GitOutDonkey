@@ -6,7 +6,7 @@ const number = document.getElementById('reveal-number');
 const init = () => {
     image.addEventListener('click', function() {
         clickCount++;
-        if (clickCount < 4) {
+        if (clickCount < 8) {
           const maxX = window.innerWidth - image.width;
           const maxY = window.innerHeight - image.height;
           const randomX = Math.floor(Math.random() * maxX);
