@@ -4,4 +4,3 @@
 - Matteo
 - Polina
 - Febe
-
